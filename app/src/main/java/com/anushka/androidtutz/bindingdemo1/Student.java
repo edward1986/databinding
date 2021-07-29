@@ -2,6 +2,10 @@ package com.anushka.androidtutz.bindingdemo1;
 
 public class Student {
 
+    private String studentName;
+    private String studentEmail;
+
+
     public Student(String studentName, String studentEmail) {
         this.studentName = studentName;
         this.studentEmail = studentEmail;
@@ -10,8 +14,7 @@ public class Student {
     public Student() {
     }
 
-    private String studentName;
-    private String studentEmail;
+
 
     public String getStudentName() {
         return studentName;
